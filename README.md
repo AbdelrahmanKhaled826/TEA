@@ -37,7 +37,25 @@ Each line defines a variable with a name, type, and an optional initializer:
 Variables like sum, delta, Y, Z, k0, k1, k2, k3 seem to be declared as 16-bit words (DW), some initialized with specific values.
 
 
-![image](https://github.com/AbdelrahmanKhaled826/TEA/assets/66374409/75b43216-ac6d-4006-967a-739ccd386f89)
+![image](https://github.com/AbdelrahmanKhaled826/TEA/assets/66374409/f72cfc36-9c79-49f9-8500-d9100acb5a0d)
+
+Put 9 in AH to print
+Put address of  message in dx
+Display from dx
+Read character and store it in al
+Compare if al is 1 or 2 or 3
+Jump to valid function according choice 
+
+Make Counter 6 loop by put 6 in cx to do encryption 6 times.
+Put value of sum and delta in ax,bx
+Add ax,bx and put value in sum
+Put value of v1 in ax and shift left by 4
+Add the value with k0
+Do xor result with (v1+sum)
+Shift right  v1 by 5 and added with k1 
+Do xor 
+Added result with v0
+![image](https://github.com/AbdelrahmanKhaled826/TEA/assets/66374409/c1acf955-8580-4869-948d-3d2226f9bc8d)
 
 
 
