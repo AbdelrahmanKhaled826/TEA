@@ -1,6 +1,10 @@
-![image](https://github.com/AbdelrahmanKhaled826/TEA/assets/66374409/4a5cd6ef-81f6-4cd1-8b2f-a460b600cd8b)Tiny encryption and decryption generally refer to cryptographic  algorithms designed to be small, efficient, and suitable for  environments with limited resources, such as embedded systems, 
+
+
+Tiny encryption and decryption generally refer to cryptographic  algorithms designed to be small, efficient, and suitable for  environments with limited resources, such as embedded systems, 
 IoT devices, or applications where performance and memory usage are critical constraints. These algorithms aim to provide a reasonable level of security while being extremely lightweight.
-Some characteristics of tiny encryption algorithm:
+
+## Some characteristics of tiny encryption algorithm:
+
 1)They consume less processing power and memory, making them suitable for low-power devices, They are designed to 
 have a minimalistic codebase, which is essential for devices with limited memory.
 2) Despite their small size, they are optimized for fast processing, which is crucial in real-time applications or devices with low computational power.
